@@ -1,0 +1,113 @@
+/* General Page Styling */
+body {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #1b263b;
+}
+
+header h1 {
+    color: #1c9ee7;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #1c9ee7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #e94560;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+}
+
+/* Image Gallery Styling */
+#gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    width: 150px;
+    cursor: pointer;
+    border: 2px solid #1c9ee7;
+    transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+    border-color: #e94560;
+}
+
+/* Full Image Container Styling */
+/* Full Image Container Styling */
+#fullImageContainer {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+#fullImage {
+    max-width: 80vw;
+    max-height: 80vh;
+    margin: 10px auto;
+    border: 2px solid #1c9ee7;
+}
+
+/* Close Button Styling */
+#fullImageContainer button {
+    background-color: #1c9ee7;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#fullImageContainer button:hover {
+    background-color: #e94560;
+}
+
+/* Canvas Styling */
+#canvasExample {
+    border: 1px solid #1c9ee7;
+    margin: 20px 0;
+}
+
+/* Footer Styling */
+footer {
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #1b263b;
+    color: #9ab;
+}
